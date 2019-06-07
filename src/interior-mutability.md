@@ -20,10 +20,10 @@ borrow checks to ensure the usual rules around multiple references. The
 accessed with atomic operations, allowing the value to be shared and mutated
 across threads.
 
-[shared reference]: types/pointer.html#shared-references-
-[ub]: behavior-considered-undefined.html
-[`std::cell::UnsafeCell<T>`]: ../std/cell/struct.UnsafeCell.html
-[`std::cell::RefCell<T>`]: ../std/cell/struct.RefCell.html
-[`std::sync::atomic`]: ../std/sync/atomic/index.html
+[shared reference]: ../types/pointer.md#shared-references-
+[ub]: ../behavior-considered-undefined.md
+[`std::cell::UnsafeCell<T>`]: ../../std/cell/struct.UnsafeCell.html
+[`std::cell::RefCell<T>`]: ../../std/cell/struct.RefCell.html
+[`std::sync::atomic`]: ../../std/sync/atomic/index.html
 
 

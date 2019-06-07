@@ -60,8 +60,8 @@ fn create_and_drop_zero_with_destructor() {
 }
 ```
 
-[constant value]: const_eval.html#constant-expressions
-[static lifetime elision]: lifetime-elision.html#static-lifetime-elision
-[IDENTIFIER]: identifiers.html
-[_Type_]: types.html#type-expressions
-[_Expression_]: expressions.html
+[constant value]: ../../const_eval.md#constant-expressions
+[static lifetime elision]: ../../lifetime-elision.md#static-lifetime-elision
+[IDENTIFIER]: ../../identifiers.md
+[_Type_]: ../../types.md#type-expressions
+[_Expression_]: ../../expressions.md

@@ -8,7 +8,7 @@ statically and dynamically. This section will explore the various methods to
 link crates together, and more information about native libraries can be
 found in the [FFI section of the book][ffi].
 
-[ffi]: ../book/ffi.html
+[ffi]: ../../book/ffi.html
 
 In one session of compilation, the compiler can generate multiple artifacts
 through the usage of either command line flags or the `crate_type` attribute.
@@ -210,6 +210,6 @@ a statically linked binary on MSVC you would execute:
 RUSTFLAGS='-C target-feature=+crt-static' cargo build --target x86_64-pc-windows-msvc
 ```
 
-[`cfg` attribute `target_feature` option]: conditional-compilation.html#target_feature
-[configuration option]: conditional-compilation.html
-[procedural macros]: procedural-macros.html
+[`cfg` attribute `target_feature` option]: ../conditional-compilation.md#target_feature
+[configuration option]: ../conditional-compilation.md
+[procedural macros]: ../procedural-macros.md

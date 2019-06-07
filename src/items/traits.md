@@ -49,9 +49,9 @@
 A _trait_ describes an abstract interface that types can implement. This
 interface consists of [associated items], which come in three varieties:
 
-- [functions](items/associated-items.html#associated-functions-and-methods)
-- [types](items/associated-items.html#associated-types)
-- [constants](items/associated-items.html#associated-constants)
+- [functions](../../items/associated-items.md#associated-functions-and-methods)
+- [types](../../items/associated-items.md#associated-types)
+- [constants](../../items/associated-items.md#associated-constants)
 
 All traits define an implicit type parameter `Self` that refers to "the type
 that is implementing this interface". Traits may also contain additional type
@@ -204,30 +204,30 @@ trait T {
 }
 ```
 
-[IDENTIFIER]: identifiers.html
-[WildcardPattern]: patterns.html#wildcard-pattern
-[_BlockExpression_]: expressions/block-expr.html
-[_Expression_]: expressions.html
-[_FunctionQualifiers_]: items/functions.html
-[_FunctionReturnType_]: items/functions.html
-[_Generics_]: items/generics.html
-[_MacroInvocationSemi_]: macros.html#macro-invocation
-[_OuterAttribute_]: attributes.html
-[_Pattern_]: patterns.html
-[_SelfParam_]: items/associated-items.html#methods
-[_TypeParamBounds_]: trait-bounds.html
-[_Type_]: types.html#type-expressions
-[_WhereClause_]: items/generics.html#where-clauses
-[bounds]: trait-bounds.html
-[trait object]: types/trait-object.html
+[IDENTIFIER]: ../../identifiers.md
+[WildcardPattern]: ../../patterns.md#wildcard-pattern
+[_BlockExpression_]: ../../expressions/block-expr.md
+[_Expression_]: ../../expressions.md
+[_FunctionQualifiers_]: ../../items/functions.md
+[_FunctionReturnType_]: ../../items/functions.md
+[_Generics_]: ../../items/generics.md
+[_MacroInvocationSemi_]: ../../macros.md#macro-invocation
+[_OuterAttribute_]: ../../attributes.md
+[_Pattern_]: ../../patterns.md
+[_SelfParam_]: ../../items/associated-items.md#methods
+[_TypeParamBounds_]: ../../trait-bounds.md
+[_Type_]: ../../types.md#type-expressions
+[_WhereClause_]: ../../items/generics.md#where-clauses
+[bounds]: ../../trait-bounds.md
+[trait object]: ../../types/trait-object.md
 [RFC 255]: https://github.com/rust-lang/rfcs/blob/master/text/0255-object-safety.md
-[associated items]: items/associated-items.html
-[method]: items/associated-items.html#methods
-[implementations]: items/implementations.html
-[generics]: items/generics.html
-[where clauses]: items/generics.html#where-clauses
-[generic functions]: items/functions.html#generic-functions
-[unsafe]: unsafety.html
-[trait implementation]: items/implementations.html#trait-implementations
-[`Send`]: special-types-and-traits.html#send
-[`Sync`]: special-types-and-traits.html#sync
+[associated items]: ../../items/associated-items.md
+[method]: ../../items/associated-items.md#methods
+[implementations]: ../../items/implementations.md
+[generics]: ../../items/generics.md
+[where clauses]: ../../items/generics.md#where-clauses
+[generic functions]: ../../items/functions.md#generic-functions
+[unsafe]: ../../unsafety.md
+[trait implementation]: ../../items/implementations.md#trait-implementations
+[`Send`]: ../../special-types-and-traits.md#send
+[`Sync`]: ../../special-types-and-traits.md#sync

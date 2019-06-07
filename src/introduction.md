@@ -131,17 +131,17 @@ hesitate to file an issue or ask about it in the `#docs` channels on
 [Discord]. Knowing what people use this book for the most helps direct our
 attention to making those sections the best that they can be.
 
-[book]: ../book/index.html
+[book]: ../../book/index.html
 [github issues]: https://github.com/rust-lang-nursery/reference/issues
-[standard library]: ../std/index.html
+[standard library]: ../../std/index.html
 [the Rust Reference repository]: https://github.com/rust-lang-nursery/reference/
 [Unstable Book]: https://doc.rust-lang.org/nightly/unstable-book/
-[_Expression_]: expressions.html
-[cargo book]: ../cargo/index.html
-[cargo reference]: ../cargo/reference/index.html
-[expressions chapter]: expressions.html
-[lifetime of temporaries]: expressions.html#temporary-lifetimes
-[linkage]: linkage.html
-[rustc book]: ../rustc/index.html
-[Notation]: notation.html
+[_Expression_]: ../expressions.md
+[cargo book]: ../../cargo/index.html
+[cargo reference]: ../../cargo/reference/index.html
+[expressions chapter]: ../expressions.md
+[lifetime of temporaries]: ../expressions.md#temporary-lifetimes
+[linkage]: ../linkage.md
+[rustc book]: ../../rustc/index.html
+[Notation]: ../notation.md
 [Discord]: https://discord.gg/rust-lang

@@ -122,4 +122,4 @@ pub mod outer_module {
 }
 ```
 
-[`doc` attributes]: ../rustdoc/the-doc-attribute.html
+[`doc` attributes]: ../../rustdoc/the-doc-attribute.html

@@ -347,17 +347,17 @@ primitive field will have the ABI of the primitive field.
 Because this representation delegates type layout to another type, it cannot be
 used with any other representation.
 
-[`align_of_val`]: ../std/mem/fn.align_of_val.html
-[`size_of_val`]: ../std/mem/fn.size_of_val.html
-[`align_of`]: ../std/mem/fn.align_of.html
-[`size_of`]: ../std/mem/fn.size_of.html
-[`Sized`]: ../std/marker/trait.Sized.html
-[dynamically sized types]: dynamically-sized-types.html
-[C-like enumerations]:  items/enumerations.html#custom-discriminant-values-for-field-less-enumerations
-[zero-variant enumerations]: items/enumerations.html#zero-variant-enums
-[undefined behavior]: behavior-considered-undefined.html
+[`align_of_val`]: ../../std/mem/fn.align_of_val.html
+[`size_of_val`]: ../../std/mem/fn.size_of_val.html
+[`align_of`]: ../../std/mem/fn.align_of.html
+[`size_of`]: ../../std/mem/fn.size_of.html
+[`Sized`]: ../../std/marker/trait.Sized.html
+[dynamically sized types]: ../dynamically-sized-types.md
+[C-like enumerations]: ../ items/enumerations.md#custom-discriminant-values-for-field-less-enumerations
+[zero-variant enumerations]: ../items/enumerations.md#zero-variant-enums
+[undefined behavior]: ../behavior-considered-undefined.md
 [27060]: https://github.com/rust-lang/rust/issues/27060
-[`PhantomData<T>`]: special-types-and-traits.html#phantomdatat
+[`PhantomData<T>`]: ../special-types-and-traits.md#phantomdatat
 [Default]: #the-default-representation
 [`C`]: #the-c-representation
 [primitive representations]: #primitive-representations
