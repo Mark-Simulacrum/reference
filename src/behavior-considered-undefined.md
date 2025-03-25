@@ -215,8 +215,12 @@ r[undefined.validity.reference-box]
 r[undefined.validity.wide]
 * The metadata of a wide reference, [`Box<T>`], or raw pointer must match
   the type of the unsized tail:
-  * `dyn Trait` metadata must be a pointer to a compiler-generated vtable for `Trait`.
-    (For raw pointers, this requirement remains a subject of some debate.)
+  * `dyn Trait` metadata must be a pointer to a valid value of a
+    compiler-generated (unnamed) type for the vtable of `Trait`.
+    The vtable of a trait is always the same regardless of the lifetime of the
+    referenced type (that was unsized to produce the original vtable), however,
+    changes to the lifetime may make it unsound to invoke methods on the vtable.
+    Such lifetime changes to raw pointers are only permitted via transmute.
   * Slice (`[T]`) metadata must be a valid `usize`.
     Furthermore, for wide references and [`Box<T>`], slice metadata is invalid
     if it makes the total size of the pointed-to value bigger than `isize::MAX`.
